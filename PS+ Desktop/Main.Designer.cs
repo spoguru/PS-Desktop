@@ -38,6 +38,7 @@
             this.btAgile = new System.Windows.Forms.Button();
             this.btReporting = new System.Windows.Forms.Button();
             this.btDependency = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btWorkviewer
@@ -143,6 +144,15 @@
             this.btDependency.UseVisualStyleBackColor = true;
             this.btDependency.Click += new System.EventHandler(this.button1_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(710, 176);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 12;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -150,6 +160,7 @@
             this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImage = global::PS__Desktop.Properties.Resources.bg1;
             this.ClientSize = new System.Drawing.Size(1228, 514);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btWorkviewer);
             this.Controls.Add(this.btRiskMatrix);
             this.Controls.Add(this.btTSOff);
@@ -180,6 +191,7 @@
         private System.Windows.Forms.Button btTSOff;
         private System.Windows.Forms.Button btRiskIssue;
         private System.Windows.Forms.Button btSwimlane;
+        private System.Windows.Forms.Button button1;
     }
 }
 
