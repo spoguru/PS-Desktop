@@ -45,7 +45,7 @@ namespace PS__Desktop
             button8.Visible = false;
             button9.Visible = false;
             button10.Visible = false;
-
+            
         }
         
         private void button2_Click(object sender, EventArgs e)
@@ -56,6 +56,27 @@ namespace PS__Desktop
             subform1.TopMost = true;
             subform1.evtFrm += new ShowFrm1(subform_evtFrm);
             subform1.Show();
+
+            button1.Visible = false;
+            button2.Visible = false;
+            button3.Visible = false;
+            button4.Visible = false;
+            button5.Visible = false;
+            button6.Visible = false;
+            button7.Visible = false;
+            button8.Visible = false;
+            button9.Visible = false;
+            button10.Visible = false;
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            Form4 subform2 = new Form4();
+            subform2.MdiParent = this;
+            subform2.BringToFront();
+            subform2.TopMost = true;
+            subform2.evtFrm += new ShowFrm2(subform_evtFrm);
+            subform2.Show();
 
             button1.Visible = false;
             button2.Visible = false;
@@ -82,6 +103,7 @@ namespace PS__Desktop
             button9.Visible = true;
             button10.Visible = true;
         }
+        
     }
 
     //public class PasswordRepository

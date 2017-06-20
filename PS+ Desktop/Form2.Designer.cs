@@ -45,9 +45,9 @@
             // button1
             // 
             this.button1.BackgroundImage = global::PS__Desktop.Properties.Resources.bg;
-            this.button1.Location = new System.Drawing.Point(0, 24);
+            this.button1.Location = new System.Drawing.Point(7, 30);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(31, 26);
+            this.button1.Size = new System.Drawing.Size(35, 35);
             this.button1.TabIndex = 1;
             this.button1.Text = "X";
             this.button1.UseVisualStyleBackColor = true;
@@ -59,6 +59,7 @@
             this.ControlBox = false;
             this.Controls.Add(this.button1);
             this.Controls.Add(this.webBrowser3);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form2";
