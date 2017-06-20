@@ -11,10 +11,10 @@ using System.Windows.Forms;
 namespace PS__Desktop
 {
 
-    public partial class Form1 : Form
+    public partial class Main : Form
     {
         
-        public Form1()
+        public Main()
         {
             InitializeComponent();
         }
@@ -28,80 +28,80 @@ namespace PS__Desktop
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form2 subform = new Form2();
+            Dependency subform = new Dependency();
             subform.MdiParent = this;
             subform.BringToFront();
             subform.TopMost = true;
             subform.evtFrm += new ShowFrm(subform_evtFrm);
             subform.Show();
 
-            button1.Visible = false;
-            button2.Visible = false;
-            button3.Visible = false;
-            button4.Visible = false;
-            button5.Visible = false;
-            button6.Visible = false;
-            button7.Visible = false;
-            button8.Visible = false;
-            button9.Visible = false;
-            button10.Visible = false;
+            btDependency.Visible = false;
+            btReporting.Visible = false;
+            btAgile.Visible = false;
+            btProjAssur.Visible = false;
+            btFinancial.Visible = false;
+            btWorkviewer.Visible = false;
+            btRiskMatrix.Visible = false;
+            btTSOff.Visible = false;
+            btRiskIssue.Visible = false;
+            btSwimlane.Visible = false;
             
         }
         
         private void button2_Click(object sender, EventArgs e)
         {
-            Form3 subform1 = new Form3();
+            Reporting subform1 = new Reporting();
             subform1.MdiParent = this;
             subform1.BringToFront();
             subform1.TopMost = true;
             subform1.evtFrm += new ShowFrm1(subform_evtFrm);
             subform1.Show();
 
-            button1.Visible = false;
-            button2.Visible = false;
-            button3.Visible = false;
-            button4.Visible = false;
-            button5.Visible = false;
-            button6.Visible = false;
-            button7.Visible = false;
-            button8.Visible = false;
-            button9.Visible = false;
-            button10.Visible = false;
+            btDependency.Visible = false;
+            btReporting.Visible = false;
+            btAgile.Visible = false;
+            btProjAssur.Visible = false;
+            btFinancial.Visible = false;
+            btWorkviewer.Visible = false;
+            btRiskMatrix.Visible = false;
+            btTSOff.Visible = false;
+            btRiskIssue.Visible = false;
+            btSwimlane.Visible = false;
         }
 
         private void button3_Click_1(object sender, EventArgs e)
         {
-            Form4 subform2 = new Form4();
+            Agile subform2 = new Agile();
             subform2.MdiParent = this;
             subform2.BringToFront();
             subform2.TopMost = true;
             subform2.evtFrm += new ShowFrm2(subform_evtFrm);
             subform2.Show();
 
-            button1.Visible = false;
-            button2.Visible = false;
-            button3.Visible = false;
-            button4.Visible = false;
-            button5.Visible = false;
-            button6.Visible = false;
-            button7.Visible = false;
-            button8.Visible = false;
-            button9.Visible = false;
-            button10.Visible = false;
+            btDependency.Visible = false;
+            btReporting.Visible = false;
+            btAgile.Visible = false;
+            btProjAssur.Visible = false;
+            btFinancial.Visible = false;
+            btWorkviewer.Visible = false;
+            btRiskMatrix.Visible = false;
+            btTSOff.Visible = false;
+            btRiskIssue.Visible = false;
+            btSwimlane.Visible = false;
         }
 
         void subform_evtFrm()
         {
-            button1.Visible = true;
-            button2.Visible = true;
-            button3.Visible = true;
-            button4.Visible = true;
-            button5.Visible = true;
-            button6.Visible = true;
-            button7.Visible = true;
-            button8.Visible = true;
-            button9.Visible = true;
-            button10.Visible = true;
+            btDependency.Visible = true;
+            btReporting.Visible = true;
+            btAgile.Visible = true;
+            btProjAssur.Visible = true;
+            btFinancial.Visible = true;
+            btWorkviewer.Visible = true;
+            btRiskMatrix.Visible = true;
+            btTSOff.Visible = true;
+            btRiskIssue.Visible = true;
+            btSwimlane.Visible = true;
         }
         
     }

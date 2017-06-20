@@ -11,10 +11,10 @@ using System.Windows.Forms;
 namespace PS__Desktop
 {
     public delegate void ShowFrm();
-    public partial class Form2 : Form
+    public partial class Dependency : Form
     {
         public event ShowFrm evtFrm;
-        public Form2()
+        public Dependency()
         {
             InitializeComponent();
             this.TopMost = true;
