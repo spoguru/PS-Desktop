@@ -1,6 +1,6 @@
 ﻿namespace PS__Desktop
 {
-    partial class Form2
+    partial class Dependency
     {
         /// <summary>
         /// Required designer variable.
